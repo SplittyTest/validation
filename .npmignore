@@ -1,0 +1,35 @@
+.vscode
+node_modules
+.editorconfig
+src
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build/distribution folders
+build/
+public/
+
+# Ignore test files and coverage
+test/
+tests/
+coverage/
+
+# Ignore development and build configurations
+*.log
+.env
+.env.*
+*.config.js
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs and temporary files
+*.log
+tmp/
+
+# Ignore documentation and other non-essential files
+docs/
+*.DS_Store
